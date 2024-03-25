@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grid with Images and Links</title>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .grid-item {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+    }
+    .grid-item img {
+        max-width: 100%;
+        height: auto;
+    }
+    .grid-item a {
+        display: block;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+    <div class="grid-item">
+        <img src="image1.jpg" alt="Image 1">
+        <a href="link1.html">Link 1</a>
+    </div>
+    <div class="grid-item">
+        <img src="image2.jpg" alt="Image 2">
+        <a href="link2.html">Link 2</a>
+    </div>
+    <div class="grid-item">
+        <img src="image3.jpg" alt="Image 3">
+        <a href="link3.html">Link 3</a>
+    </div>
+    <div class="grid-item">
+        <img src="image4.jpg" alt="Image 4">
+        <a href="link4.html">Link 4</a>
+    </div>
+</div>
+
+</body>
+</html>
